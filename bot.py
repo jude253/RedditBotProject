@@ -12,6 +12,7 @@ posts_replied_to = []
 comments_replied_to = []
 limit_of_comment_replies = 10
 limit_of_comments_searched = 50
+limit_of_posts_searched = 10
 
 
 def main():
@@ -66,7 +67,7 @@ def comment_tracking_file_closer():
             f.write(comment_id + "\n")
 
 def submission_handling(subreddit):
-    for submission in subreddit.hot(limit=10):
+    for submission in subreddit.hot(limit=limit_of_posts_searched):
 
         #post not archived, no duplicate replies, search criteria 
         if  not submission.archived and \
