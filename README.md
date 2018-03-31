@@ -1,6 +1,15 @@
 # RedditBotProject
 I'm working on making some reddit bots and using NLTK
 
+Make sure you have praw installed so in the terminal dl praw:
+
+pip install praw
+
+or
+
+sudo pip install praw
+
+This is a very helpful wrapper for the reddit api
 
 The praw.ini file stores your reddit login credentials and
 you need to configure that first to run this, and keep it 
