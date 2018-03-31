@@ -9,6 +9,18 @@ or
 
 sudo pip install praw
 
+ALSO install NLTK and set it up from the command line:
+
+sudo pip install nltk
+
+then 
+
+python -m nltk.downloader all
+
+then
+
+sudo python -m nltk.downloader -d /usr/local/share/nltk_data all
+
 This is a very helpful wrapper for the reddit api
 
 The praw.ini file stores your reddit login credentials and
