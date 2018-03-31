@@ -1,7 +1,7 @@
 # RedditBotProject
 I'm working on making some reddit bots and using NLTK
 
-Make sure you have praw installed so in the terminal dl praw:
+Make sure you have praw installed so in the terminal download praw:
 
 pip install praw
 
